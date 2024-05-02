@@ -1,0 +1,34 @@
+﻿.contactus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactus {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.contactus-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contactus h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contactus p {
+    font-size: 14px;
+    color: #555;
+}
+
+.imgcontact {
+    width: 20px;
+}
