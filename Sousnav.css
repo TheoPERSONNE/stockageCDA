@@ -1,0 +1,30 @@
+.sous-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f0f0f0; /* Arrière-plan gris clair */
+  border-bottom: solid #fefafa 10px;
+}
+
+.onglet {
+  flex: 1;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.onglet a {
+  color: #000; /* Couleur du texte des liens */
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.onglet a:hover {
+  background-color: #c0e0ff; /* Couleur de fond bleu clair au survol */
+}
+
+.separator {
+  width: 2px;
+  height: 30px; /* Hauteur des barres verticales */
+  background-color: #ccc;
+}
