@@ -1,0 +1,86 @@
+#bodyForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f0f0f0;
+}
+
+#details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 65%;
+ 
+ 
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+}
+
+#image img {
+  max-width: 100%;
+}
+
+#Form {
+  text-align: center;
+}
+
+#Form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.allConn {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #c0e0ff;
+}
+
+.container-fluid2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  width: 35%
+}
+
+.titreCo {
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.logoCo {
+    width: 200px
+}

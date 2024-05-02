@@ -1,0 +1,59 @@
+.Commandehist {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-bottom: 80px;
+}
+
+/* Style for the table */
+.Commandehist table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Style for table header */
+.Commandehist th {
+  background-color: #c0e0fe;
+  color: #0a0000;
+  font-weight: bold;
+  padding: 16px;
+  text-align: left;
+}
+
+/* Style for table rows */
+.Commandehist tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table cells */
+.Commandehist td {
+  padding: 16px;
+}
+
+/* Style for alternating row background color */
+.Commandehist tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for the status */
+.Commandehist .status {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Style for the start and end dates */
+.Commandehist .date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.Commall {
+  margin-top: 80px;
+}
