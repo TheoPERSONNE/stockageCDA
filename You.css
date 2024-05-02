@@ -1,0 +1,40 @@
+.you-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-container {
+  flex: 1;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+.youp {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.photo {
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.textProfil {
+  text-decoration: underline;
+}

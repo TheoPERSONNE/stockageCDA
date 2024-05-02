@@ -1,0 +1,69 @@
+/* Tickethist.css */
+
+/* Reset default margin and padding for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for the container */
+.Tickethist {
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-bottom: 80px;
+}
+
+/* Style for the table */
+.Tickethist table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Style for table header */
+.Tickethist th {
+  background-color: #c0e0fe;
+  color: #000000;
+  font-weight: bold;
+  padding: 16px;
+  text-align: left;
+}
+
+/* Style for table rows */
+.Tickethist tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table cells */
+.Tickethist td {
+  padding: 16px;
+}
+
+/* Style for alternating row background color */
+.Tickethist tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for the status */
+.Tickethist .status {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Style for the start and end dates */
+.Tickethist .date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.Ticketall {
+  margin-top: 80px;
+}

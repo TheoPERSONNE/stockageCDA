@@ -1,0 +1,35 @@
+.you-info-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center;
+}
+
+.left-info,
+.right-info {
+  flex: 1;
+  text-align: center; /* Centrer le texte à l'intérieur des div */
+}
+
+.left-info p,
+.right-info p {
+  margin: 5px 0;
+}
+
+.separatorinfo {
+  width: 1px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 0 20px;
+}
+
+.infop {
+  text-decoration: none;
+}
