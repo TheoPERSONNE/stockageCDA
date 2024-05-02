@@ -1,0 +1,40 @@
+.inputmodif {
+  display: flex;
+  flex-direction: column;
+}
+
+.allmodif {
+  padding: 20px;
+}
+
+.modif1 {
+  display: flex;
+}
+
+.columnform {
+  display: flex;
+}
+
+.empla {
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 30px;
+  text-decoration: none;
+}
+
+a.btn-savm {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 80px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.titreModif {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

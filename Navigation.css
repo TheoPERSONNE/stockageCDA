@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #c0e0ff; /* Arrière-plan bleu clair */
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  color: #000; /* Couleur du texte des liens */
+  text-decoration: underline; /* Souligner le lien */
+}
+
+.nav-links button {
+  background-color: #007bff; /* Couleur bleue pour le bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav-links button:hover {
+  background-color: #0056b3; /* Couleur bleue plus foncée au survol */
+}
+
+.modifcase {
+  margin-left: 50px;
+}
