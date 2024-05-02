@@ -1,0 +1,62 @@
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.articleActu {
+  width: 80%;
+  margin-bottom: 70px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.articleActu img {
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.article-content {
+  width: 55%;
+}
+
+.article-content h2 {
+  margin-top: 10px;
+}
+
+.article-content p {
+  margin-top: 5px;
+}
+
+.descp {
+  text-decoration: none;
+}
+
+/* Actualites.css */
+
+/* Actualites.css */
+
+.title-container {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 150px;
+}
+
+.hr-line {
+  flex: 1;
+  height: 0, 5px; /* Ajustez la hauteur selon votre préférence */
+  background-color: #000000; /* Changez la couleur selon votre préférence */
+  margin: 0 10px; /* Ajustez les marges selon votre préférence */
+}
+
+.contenerActu {
+    padding: 20px;
+    background-color: #f9f9f9;
+}

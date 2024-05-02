@@ -1,0 +1,53 @@
+.pageadmin {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.h2admin {
+    color: #333;
+}
+
+.h3admin {
+    color: #666;
+}
+
+.alla {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.alladmin {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 15px;
+    width: 45%;
+}
+
+.padmin {
+    margin-bottom: 10px;
+}
+
+.admin-select {
+    width: 160%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-admin {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .btn-admin:hover {
+        background-color: #0056b3;
+    }
+
+.container-select {
+    display: flex;
+    justify-content: space-between;
+}
