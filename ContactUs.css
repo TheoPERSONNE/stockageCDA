@@ -1,0 +1,47 @@
+﻿.contact-container {
+    margin: 100px auto; /* Centre le conteneur verticalement et horizontalement */
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Les autres styles restent inchangés */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+#question {
+    width: 100%;
+    height: 150px; /* Hauteur agrandie */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
